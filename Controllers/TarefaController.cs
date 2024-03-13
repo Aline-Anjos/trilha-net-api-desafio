@@ -15,6 +15,7 @@ namespace TrilhaApiDesafio.Controllers
             _context = context;
         }
 
+
         [HttpGet("{id}")]
         public IActionResult ObterPorId(int id)
         {
