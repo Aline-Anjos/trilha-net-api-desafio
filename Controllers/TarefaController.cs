@@ -31,6 +31,7 @@ namespace TrilhaApiDesafio.Controllers
         public IActionResult ObterTodos()
         {
             var tarefa = _context.Tarefas;
+
             return Ok();
         }
 
